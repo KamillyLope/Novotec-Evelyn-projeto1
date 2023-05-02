@@ -1,0 +1,32 @@
+nav{
+    background-color:#18929D;
+    /* manipular os elemntos de forma dinâmica */
+    display: flex;
+    align-items: center;
+    /* criar espaçamento entre os itens */
+    justify-content: space-between;
+}
+Nav ul{
+    /* tornar layout flexivel */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 50px;
+
+}
+nav li{
+    margin-left: 15px;
+}
+nav li a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
